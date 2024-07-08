@@ -6,17 +6,21 @@ void main()
     printf("Enter the value of age\n");
     scanf("%d", &age);
 
-    switch(age)
-        case 18:
-            printf("adult");
-            printf("they can vote");
-            printf("they can drive");
+    switch(age) {
+        case 18: {
+            printf("adult\n");
+            printf("they can vote\n");
+            printf("they can drive\n");
             break;
-        case 10:
-            printf("Not adult");
-            printf("they can't vote");
-            printf("they can't drive");
+        }
+        case 10: {
+            printf("Not adult\n");
+            printf("they can't vote\n");
+            printf("they can't drive\n");
             break;
-        default:
-            printf("Invalid");
+        }
+        default: {
+            printf("Invalid\n");
+        }
+    }
 }
